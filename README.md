@@ -16,6 +16,6 @@ A group of projects in multiple technologies which I created following tutorials
 
 1. [Spring Boot + ReactJS (NextJS) UI + Docker Compose + Kubernetes Tutorial Playlist](https://www.youtube.com/watch?v=pGbBuwzyiV4&list=PLuNxlOYbv61h66_QlcjCEkVAj6RdeplJJ)
 		- This project has been migrated to it's own repository
-		[bookmarker-api-spring-kubernetes(]https://github.com/christyjohn/bookmarker-api-spring-kubernetes)
+[bookmarker-api-spring-kubernetes](https://github.com/christyjohn/bookmarker-api-spring-kubernetes)
 
 
