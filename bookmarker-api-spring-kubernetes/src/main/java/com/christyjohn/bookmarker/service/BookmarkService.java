@@ -1,9 +1,12 @@
 package com.christyjohn.bookmarker.service;
 
+import com.christyjohn.bookmarker.dto.BookmarkDTO;
 import com.christyjohn.bookmarker.dto.BookmarksDTO;
 import com.christyjohn.bookmarker.entity.Bookmark;
+import com.christyjohn.bookmarker.mapper.BookmarkMapper;
 import com.christyjohn.bookmarker.repository.BookmarkRepository;
 import lombok.RequiredArgsConstructor;
+import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.domain.Sort;
@@ -19,11 +22,14 @@ import java.util.List;
 public class BookmarkService {
 
     private final BookmarkRepository repository;
+    private final BookmarkMapper bookmarkMapper;
 
     @Transactional(readOnly = true)
     public BookmarksDTO getBookmarks(@RequestParam(name = "page", defaultValue = "1") Integer page) {
         int pageNo = page < 1 ? 0 : page - 1;
-        Pageable pageable = PageRequest.of(pageNo, 10, Sort.Direction.DESC, "createdAt");
-        return new BookmarksDTO(repository.findAll(pageable));
+        Pageable pageable = PageRequest.of(pageNo, 10,
+                Sort.Direction.DESC, "createdAt");
+        Page<BookmarkDTO> bookmarkPage = repository.findBookMarks(pageable);
+        return new BookmarksDTO(bookmarkPage);
     }
 }
