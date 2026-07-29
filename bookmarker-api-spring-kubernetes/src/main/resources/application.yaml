@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: bookmarker-api
+  datasource:
+    url: jdbc:h2:mem:bookmarkdb
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update

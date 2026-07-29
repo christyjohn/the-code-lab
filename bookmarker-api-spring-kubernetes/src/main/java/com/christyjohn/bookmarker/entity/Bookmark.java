@@ -1,4 +1,4 @@
-package com.christyjohn.bookmarker.domain;
+package com.christyjohn.bookmarker.entity;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
@@ -18,7 +18,7 @@ public class Bookmark {
 
     @Id
     @SequenceGenerator(name="bm_id_seq_gen", sequenceName = "bm_id_seq")
-    @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "")
+    @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "bm_id_seq_gen")
     private Long id;
 
     @Column(nullable = false)
