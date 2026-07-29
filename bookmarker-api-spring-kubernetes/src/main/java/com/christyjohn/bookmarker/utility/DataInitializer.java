@@ -1,4 +1,4 @@
-package com.christyjohn.bookmarker.utility;
+/*package com.christyjohn.bookmarker.utility;
 
 import com.christyjohn.bookmarker.entity.Bookmark;
 import com.christyjohn.bookmarker.repository.BookmarkRepository;
@@ -32,4 +32,4 @@ public class DataInitializer implements CommandLineRunner {
         repository.save(new Bookmark(null, "Testing REST APIs using Postman and Newman","https://sivalabs.in/testing-rest-apis-with-postman-newman", Instant.now()));
         repository.save(new Bookmark(null, "Testing SpringBoot Applications","https://sivalabs.in/spring-boot-testing", Instant.now()));
     }
-}
+}*/
