@@ -1,7 +1,11 @@
 # My Projects while Learning
 A group of projects in multiple technologies which I created following tutorials on web.
 
-
+### Kotlin
+	
+1. Kotlin in Action - Ed 2
+	- [Kotlin Projects / Kotlin in Action](https://github.com/christyjohn/the-code-lab/tree/main/kotlin-projects/kotlin-in-action)
+	
 ## Spring
  
 1. EmbarkX Udemy courses - [Java Spring Boot Full Stack: eCommerce Project Masterclass](https://www.udemy.com/course/spring-boot-using-intellij-build-a-real-world-project/)
