@@ -4,9 +4,13 @@ A group of projects in multiple technologies which I created following tutorials
 ## Data Structures & Algorithms Practice
 Following various sources to practice DSA (primarily Leetcode problems)
 
-1. Path Vyas's 48 hour Megacourse
+1. [DSA_Practice](https://github.com/christyjohn/the-code-lab/tree/main/DSA_Practice)
 
-	- [Data Structures and Algorithms Mega Course – Master Technical Interviews in 49 Hours](https://www.youtube.com/watch?v=xwI5OBEnsZU&t=314s)
+	Contains code from following resources
+
+	- [Data Structures and Algorithms Mega Course – Master Technical Interviews in 49 Hours (Parth Vyas)](https://www.youtube.com/watch?v=xwI5OBEnsZU&t=314s)
+	
+	- [Data Structures Easy to Advanced Course - Full Tutorial from a Google Engineer (William Fiset)](https://www.youtube.com/watch?v=RBSGKlAvoiM&t=1483s)
 
 ## Kotlin
 	
