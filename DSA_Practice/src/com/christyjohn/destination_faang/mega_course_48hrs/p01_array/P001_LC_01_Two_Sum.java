@@ -25,7 +25,7 @@ import java.util.*;
  * Input: nums = [3,3], target = 6
  * Output: [0,1]
  */
-public class P01_LC_01_Two_Sum {
+public class P001_LC_01_Two_Sum {
     public static void main(String[] args) {
         System.out.println(Arrays.toString(twosum(new int[] {2,7,11,15}, 9)));
         System.out.println(Arrays.toString(twosum(new int[] {3,2,4}, 6)));

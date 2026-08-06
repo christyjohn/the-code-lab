@@ -29,7 +29,7 @@ import java.util.Set;
  * 1 <= nums.length <= 105
  * -109 <= nums[i] <= 109
  */
-public class P02_LC_ContainsDuplicate {
+public class P002_LC_ContainsDuplicate {
     public static void main(String[] args) {
         System.out.println(containsDuplicate(new int[] {1,2,3,1}));
         System.out.println(containsDuplicate(new int[] {1,2,3,4}));
