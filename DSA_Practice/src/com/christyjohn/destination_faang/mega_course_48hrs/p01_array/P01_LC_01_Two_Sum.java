@@ -44,6 +44,6 @@ public class P01_LC_01_Two_Sum {
             else
                 map.put(arr[i], i);
         }
-        return null;
+        return new int[] {};
     }
 }
