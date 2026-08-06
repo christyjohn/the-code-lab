@@ -1,4 +1,4 @@
-package com.christyjohn.william_fiset.dsa_playlist.arrays;
+package com.christyjohn.william_fiset.dsa_playlist.p01_array;
 
 import java.util.Iterator;
 
