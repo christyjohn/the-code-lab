@@ -1,7 +1,14 @@
 # My Projects while Learning
 A group of projects in multiple technologies which I created following tutorials on web.
 
-### Kotlin
+## Data Structures & Algorithms Practice
+Following various sources to practice DSA (primarily Leetcode problems)
+
+1. Path Vyas's 48 hour Megacourse
+
+	- [Data Structures and Algorithms Mega Course – Master Technical Interviews in 49 Hours](https://www.youtube.com/watch?v=xwI5OBEnsZU&t=314s)
+
+## Kotlin
 	
 1. Kotlin in Action - Ed 2
 
