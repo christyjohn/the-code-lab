@@ -1,4 +1,4 @@
-package com.christyjohn.kunal_kushwaha.leetcode.arrays.easy;
+package com.christyjohn.kunal_kushwaha.leetcode.arrays.easy.linear_search;
 
 /**
  * Given an array nums of integers, return how many of them contain an even number of digits.

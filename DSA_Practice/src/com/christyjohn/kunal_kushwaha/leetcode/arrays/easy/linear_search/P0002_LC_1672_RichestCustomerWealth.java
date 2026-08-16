@@ -1,4 +1,4 @@
-package com.christyjohn.kunal_kushwaha.leetcode.arrays.easy;
+package com.christyjohn.kunal_kushwaha.leetcode.arrays.easy.linear_search;
 
 /**
  * You are given an m x n integer grid accounts where accounts[i][j] is the amount of money
